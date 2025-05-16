@@ -483,7 +483,7 @@ function pmprosus_signup_shortcode($atts, $content=null, $code="")
 							<?php do_action( 'pmpro_signup_form_after_submit' ); ?>
 						</div> <!-- end pmpro_card_content -->
 
-						<?php if ( ! empty( $login ) && ! empty( $current_user->ID ) ) { ?>
+						<?php if ( ! empty( $login )  ) {  // removed && empty( $current_user->ID ) ?>
 							<div class="<?php echo esc_attr( pmpro_get_element_class( 'pmpro_card_actions' ) ); ?>">
 								<div class="login-link">
 									<a href="<?php echo esc_url( wp_login_url( get_permalink() ) ); ?>"><?php esc_html_e( 'Log In','pmpro-signup-shortcode' ); ?></a>
