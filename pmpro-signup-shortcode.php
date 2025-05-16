@@ -3,7 +3,7 @@
  * Plugin Name: Paid Memberships Pro - Signup Shortcode Add On
  * Plugin URI: https://www.paidmembershipspro.com/add-ons/pmpro-signup-shortcode/
  * Description: Embed signup forms anywhere on your WordPress site. Designed to simplify membership registration, especially for free levels.
- * Version: 0.402
+ * Version: 0.403
  * Author: Paid Memberships Pro 
  * Author URI: https://www.paidmembershipspro.com
  * Text Domain: pmpro-signup-shortcode
